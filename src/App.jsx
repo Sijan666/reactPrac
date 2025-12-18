@@ -2,20 +2,27 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import RootLayouts from './components/layouts/RootLayouts'
 import Home from './components/pages/Home'
-import Container from './components/pages/Container'
+import About from './components/pages/About'
+import Help from './components/pages/Help'
+import Company from './components/pages/Company'
+
+
+
 
 
 function App () {
   return (
-    <><Container>
-      <h1>hello prithivi</h1>
-      <Routes>
-        <Route path="/" element={<RootLayouts />}>
-          <Route index element={<Home/>} />
-          {/* <Route path="/about" element={<About/>} /> */}
-        </Route>
-      </Routes>
-      </Container>
+    <>
+   <Routes>
+<Route path="/" element={<RootLayouts />}>
+<Route index element={<Home/>} />
+<Route path="/home" element={<Home />} />
+<Route path="/Company" element={<Company />} />
+<Route path="/Help" element={<Help />} />
+<Route path="/about" element={<About />} />
+</Route>
+</Routes>
+
     </>
   )
 }

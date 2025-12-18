@@ -1,9 +1,13 @@
 
 
+
+
 const Home = () => {
     return (
         <>
-        <h1>hello everyone</h1>
+        <div className="bg-blue-800 m-auto">
+            <h1>jhfuriyfprufjvfdhg</h1>
+        </div>
         </>
     )
 }

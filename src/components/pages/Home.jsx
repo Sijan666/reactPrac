@@ -1,9 +1,9 @@
-
+import MobileSecurity from "../layouts/mobilesecurity"
 
 const Home = () => {
     return (
         <>
-        <h3>Toba</h3>
+<MobileSecurity/>
         </>
     )
 }

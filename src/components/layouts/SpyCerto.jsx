@@ -15,12 +15,12 @@ const SpyCerto = () => {
       <div className="text-center px-[385px] py-7">
           <Flex className={"gap-x-6"}> 
               <Link to={"/iphone"}>
-                <Button className={"flex items-center gap-x-4 text-common text-[19px] font-extrabold font-inter hover:text-white hover:border-white hover:border-2"}>Get Certo for iPhone
+                <Button className={"flex items-center gap-x-4"}>Get Certo for iPhone
                   <FaArrowRightLong />
                 </Button> 
               </Link>
               <Link to={"/android"}>
-                <Button className={"text-common text-[19px] font-extrabold font-inter hover:text-white hover:border-white hover:border-2"}>Get Certo for Android</Button>
+                <Button className={""}>Get Certo for Android</Button>
               </Link>
           </Flex>
       </div>

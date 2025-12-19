@@ -9,8 +9,8 @@ import { FaAngleDown } from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <div>
-      <Container className={"bg-[#F3F8FF]"}>
+    <div className='py-5 bg-[#F3F8FF]'>
+      <Container>
         <Flex className={" gap-5 justify-between"}>
               <div className="">
                 <Link to={'/'}>
@@ -41,10 +41,6 @@ const Header = () => {
               <div className="">
                 <Button className={"text-[15px] text-white font-extrabold"} btntext={"Sign in"}/>
               </div>
-              
-
-
-
         </Flex>
       </Container>
     </div>

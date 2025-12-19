@@ -19,16 +19,17 @@ const Banner = () => {
               for you to scan, detect and remove threats from your iPhone and
               Android devices.
             </p>
-            <div className="flex">
-              <Link to={"/"}>
-                <button className="flex items-center gap-x-4 py-4 px-5 hover:bg-[#FFC247] outline-2 outline-text-common rounded-[42px] font-inter font-extrabold text-[19px] text-common cursor-pointer duration-300 hover:outline-[#FFC247]">
+            <div className="flex gap-x-4">
+              <Link to={"/iphone"}>
+                <button className="flex items-center gap-x-4 group py-4 px-5 hover:bg-[#FFC247] outline-2 outline-text-common rounded-[42px] font-inter font-extrabold text-[19px] text-common cursor-pointer duration-300 hover:outline-[#FFC247]">
                   Get Certo for iPhone{" "}
-                  <FaArrowRightLong className="text-[#000000]" />
+                  <FaArrowRightLong className="text-[#000000] opacity-0 group-hover:opacity-100 duration-300" />
                 </button>
               </Link>
-              <Link to={"/"}>
-                <button className="py-4 px-5 hover:bg-[#FFC247] outline-2 outline-text-common rounded-[42px] ml-12 font-inter font-extrabold text-[19px] text-text-common cursor-pointer duration-300 hover:outline-[#FFC247] hover:outline-2">
+              <Link to={"/about"}>
+                <button className="flex items-center gap-x-4 group py-4 px-5 hover:bg-[#FFC247] outline-2 outline-text-common rounded-[42px] font-inter font-extrabold text-[19px] text-common cursor-pointer duration-300 hover:outline-[#FFC247]">
                   Get Certo for Android
+                  <FaArrowRightLong className="text-[#000000] opacity-0 group-hover:opacity-100 duration-300" />
                 </button>
               </Link>
             </div>

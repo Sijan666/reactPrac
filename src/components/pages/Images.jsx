@@ -7,3 +7,4 @@ const Images = ({ src }) => {
 }
 
 export default Images;
+

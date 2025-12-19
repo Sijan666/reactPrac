@@ -1,12 +1,16 @@
-import React from 'react'
-import Home from '../pages/Home'
+import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import { Outlet } from "react-router-dom";
 
 const RootLayouts = () => {
     return (
         <>
-        <Home/>
+            <Header />
+            <Outlet />
+            <Footer />
         </>
-    )
-}
+    );
+};
 
-export default RootLayouts
+export default RootLayouts;

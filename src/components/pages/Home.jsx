@@ -87,17 +87,17 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center gap-10">
             <span className="font-bold text-black text-lg">Featured in:</span>
             <div className="flex flex-wrap items-center justify-center gap-10 md:gap-14 opacity-90 grayscale brightness-0">
-                 <div className="flex flex-col items-center">
-                 <span className="font-black text-4xl italic">CNBC</span>
-               </div>
-               {/* Financial Times */}
-                 <span className="flex items-center gap-2 font-serif font-black uppercase text-2xl">FINANCIAL TIMES</span>
-               {/* New York Post */}
-               <span className="font-serif italic font-black text-2xl uppercase">New York Post</span>
-               {/* Reader's Digest */}
-               <span className="font-serif font-bold text-2xl italic">Reader's Digest</span>
-               {/* ZDNet */}
-               <span className="font-black italic text-4xl">ZDNet</span>
+                <div className="flex flex-col items-center">
+                  <span className="font-black text-4xl italic">CNBC</span>
+                </div>
+                {/* Financial Times */}
+                  <span className="flex items-center gap-2 font-serif font-black uppercase text-2xl">FINANCIAL TIMES</span>
+                {/* New York Post */}
+                <span className="font-serif italic font-black text-2xl uppercase">New York Post</span>
+                {/* Reader's Digest */}
+                <span className="font-serif font-bold text-2xl italic">Reader's Digest</span>
+                {/* ZDNet */}
+                <span className="font-black italic text-4xl">ZDNet</span>
             </div>   
           </div>
         </div>

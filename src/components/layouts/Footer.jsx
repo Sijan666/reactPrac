@@ -3,6 +3,7 @@ import Container from "../Container";
 // import Flex from "../Flex";
 import { BsTwitter } from "react-icons/bs";
 import { FaFacebook, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 // import { CgYoutube } from "react-icons/cg";
 
 const Footer = () => {
@@ -43,11 +44,31 @@ const Footer = () => {
               </h2>
 
               <ul className="space-y-3 text-yellow-400">
-                <li>— iPhone</li>
-                <li>— Android</li>
-                <li>— Help</li>
-                <li>— About</li>
-                <li>— Insights</li>
+                <li>
+                  <Link to={'/iphone'}>
+                  — iPhone
+                  </Link>
+                </li>
+                <li>
+                  <Link to={'/android'}>
+                  — Android
+                  </Link>
+                </li>
+                <li>
+                  <Link to={'/help'}>
+                  — Help
+                  </Link>
+                </li>
+                <li>
+                  <Link to={'/about'}>
+                  — About
+                  </Link>
+                </li>
+                <li>
+                  <Link to={'/'}>
+                  — Insights
+                  </Link>
+                </li>
               </ul>
             </div>
 

@@ -23,15 +23,15 @@ const Header = () => {
                     <li className='text-[19px] font-extrabold hover:text-[#4335DE] p-3 rounded-[42px]'>iPhone</li>
                     </Link>
 
-                    <Link to="/About">
+                    <Link to="/android">
                     <li className='text-[19px] font-extrabold hover:text-[#4335DE] p-3 rounded-[42px]'>Android</li>
                     </Link>
 
-                    <Link to="/Help">
+                    <Link to="/help">
                     <li className='text-[19px] font-extrabold hover:text-[#4335DE] p-3 rounded-[42px]'>Help</li>
                     </Link>
 
-                    <Link to="/Company">
+                    <Link to="/company">
                     <li className="flex items-center text-[19px] font-extrabold hover:text-[#4335DE] p-3 rounded-[42px]">
                         Company <FaAngleDown />
                     </li>

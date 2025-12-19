@@ -2,7 +2,7 @@
 const Android = () => {
   return (
     <div>
-      This is Android page
+      <div className='bg-red-800 text-white'>Android</div>
     </div>
   )
 }

@@ -12,18 +12,20 @@ const SpyCerto = () => {
           <h1 className="text-[34px] font-extrabold font-inter leading-[45px] text-white">Is someone spying on your phone?</h1>
           <p className="text-white text-[18px] font-inter py-[50px]">Find out with Certo</p>
       </div>
-      <div className="text-center px-[385px] py-7">
-          <Flex className={"gap-x-6"}> 
+            <div className="flex gap-x-6 mt-15 justify-center">
               <Link to={"/iphone"}>
-                <Button className={"flex items-center gap-x-4"}>Get Certo for iPhone
-                  <FaArrowRightLong />
-                </Button> 
+                <button className="flex items-center gap-x-4 text-white hover:text-[#000000] group py-3 px-5 duration-300 text-[19px] font-Inter font-extrabold rounded-[42px] cursor-pointer bg-transparent border-2 hover:bg-[#FFC247] hover:border-[#FFC247]">
+                  Get Certo for iPhone
+                  <FaArrowRightLong className="group-hover:text-[#000000] text-white opacity-0 group-hover:opacity-100 duration-300" />
+                </button>
               </Link>
               <Link to={"/android"}>
-                <Button className={""}>Get Certo for Android</Button>
+                <button className="flex items-center gap-x-4 text-white hover:text-[#000000] group py-3 px-5 duration-300 text-[19px] font-Inter font-extrabold rounded-[42px] cursor-pointer bg-transparent border-2 hover:bg-[#FFC247] hover:border-[#FFC247]">
+                  Get Certo for Android
+                  <FaArrowRightLong className="group-hover:text-[#000000] text-white opacity-0 group-hover:opacity-100 duration-300 " />
+                </button>
               </Link>
-          </Flex>
-      </div>
+            </div>
     </Container>
   </div>
   )

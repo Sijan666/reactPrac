@@ -26,7 +26,7 @@ const Banner = () => {
                   <FaArrowRightLong className="text-[#000000] opacity-0 group-hover:opacity-100 duration-300" />
                 </button>
               </Link>
-              <Link to={"/about"}>
+              <Link to={"/android"}>
                 <button className="flex items-center gap-x-4 group py-4 px-5 hover:bg-[#FFC247] outline-2 outline-text-common rounded-[42px] font-inter font-extrabold text-[19px] text-common cursor-pointer duration-300 hover:outline-[#FFC247]">
                   Get Certo for Android
                   <FaArrowRightLong className="text-[#000000] opacity-0 group-hover:opacity-100 duration-300" />

@@ -1,11 +1,11 @@
-import MobileSecurity from "../layouts/MobileSecurity"
+import MobileSecurity from "../layouts/MobileSecurity";
 
 const Home = () => {
     return (
         <>
-<MobileSecurity/>
+        <MobileSecurity />
         </>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;

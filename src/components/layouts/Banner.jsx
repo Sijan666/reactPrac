@@ -7,7 +7,6 @@ import Image from "../Image";
 const Banner = () => {
   return (
     <>
-      {" "}
       <div className="bg-[url(/src/assets/banner.png)] bg-cover bg-no-repeat bg-center py-[123px]">
         <Container>
           <div className="w-[45%]">
@@ -22,7 +21,7 @@ const Banner = () => {
             <div className="flex">
               <Link to={"/"}>
                 <button className="flex items-center gap-x-4 py-4 px-5 hover:bg-[#FFC247] outline-2 outline-[#02033B] rounded-[42px] font-inter font-extrabold text-[19px] text-[#02033B] cursor-pointer duration-300 hover:outline-[#FFC247]">
-                  Get Certo for iPhone{" "}
+                  Get Certo for iPhone
                   <FaArrowRightLong className="text-[#000000]" />
                 </button>
               </Link>

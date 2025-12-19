@@ -1,4 +1,4 @@
-import MobileSecurity from "../layouts/mobilesecurity"
+import MobileSecurity from "../layouts/MobileSecurity"
 
 const Home = () => {
     return (

@@ -5,6 +5,7 @@ import Home from './components/pages/Home'
 import About from './components/pages/About'
 import Help from './components/pages/Help'
 import Company from './components/pages/Company'
+import LastPart from './components/LastPart'
 
 
 
@@ -22,6 +23,7 @@ function App () {
 <Route path="/about" element={<About />} />
 </Route>
 </Routes>
+<LastPart/>
 
     </>
   )

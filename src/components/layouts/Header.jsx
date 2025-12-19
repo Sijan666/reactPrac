@@ -13,11 +13,13 @@ const Header = () => {
       <Container className={"bg-[#F3F8FF]"}>
         <Flex className={" gap-5 justify-between"}>
               <div className="">
-                <Image src={Logo}/>
+                <Link to={'/'}>
+                  <Image src={Logo}/>
+                </Link>
               </div>
               <div className="">
                 <ul className='flex items-center gap-x-[49px] '>
-                    <Link to="/Home">
+                    <Link to="/iphone">
                     <li className='text-[19px] font-extrabold hover:text-[#4335DE] p-3 rounded-[42px]'>iPhone</li>
                     </Link>
 

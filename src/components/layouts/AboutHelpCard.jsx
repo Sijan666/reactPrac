@@ -9,13 +9,13 @@ const AboutHelpCard = () => {
     <Container>
       <div className="my-[84px] ">
         <Flex className={"gap-x-[100px] justify-center"}>
-          <div className="relative p-[48px] rounded-[48px] cursor-pointer group">
-            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#F7C95F] to-[#FDB235] opacity-0 group-hover:opacity-100 duration-400 rounded-[48px]" />
+          <div className="relative p-12 rounded-[48px] cursor-pointer group">
+            <div className="absolute top-0 left-0 w-full h-full bg-linear-to-b from-[#F7C95F] to-[#FDB235] opacity-0 group-hover:opacity-100 duration-400 rounded-[48px]" />
             <div className="relative z-60">
               <h4 className="font-inter font-extrabold text-[23px] text-[#02033B]">
                 Read our story
               </h4>
-              <h5 className="w-[350px] font-inter font-normal text-[16px] text-[#02033B] leading-[24px] mt-[24px] mb-[48px]">
+              <h5 className="w-[350px] font-inter font-normal text-[16px] text-[#02033B] leading-6 mt-6 mb-12">
                 Find out why thousands trust Certo to secure their mobile world.
               </h5>
               <Link to={"/"}>
@@ -26,13 +26,13 @@ const AboutHelpCard = () => {
             </div>
           </div>
 
-          <div className="relative py-[48px] px-[100px] rounded-[48px] cursor-pointer group">
-            <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-[#F7C95F] to-[#FDB235] opacity-0 group-hover:opacity-100 duration-400 rounded-[48px]" />
+          <div className="relative py-12 px-[100px] rounded-[48px] cursor-pointer group">
+            <div className="absolute top-0 left-0 w-full h-full bg-linear-to-b from-[#F7C95F] to-[#FDB235] opacity-0 group-hover:opacity-100 duration-400 rounded-[48px]" />
             <div className="relative z-60">
               <h4 className="font-inter font-extrabold text-[23px] text-[#02033B]">
                 Help Center
               </h4>
-              <h5 className="w-[200px] font-inter font-normal text-[16px] text-[#02033B] leading-[24px] mt-[24px] mb-[48px]">
+              <h5 className="w-[200px] font-inter font-normal text-[16px] text-[#02033B] leading-6 mt-6 mb-12">
                 Help topics, getting started guides and FAQs.
               </h5>
               <Link to={"/"}>

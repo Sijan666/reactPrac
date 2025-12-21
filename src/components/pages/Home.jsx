@@ -1,3 +1,4 @@
+import AboutHelpCard from "../layouts/AboutHelpCard";
 import Banner from "../layouts/Banner";
 import GetCerto from "../layouts/GetCerto";
 import MobileSecurity from "../layouts/MobileSecurity";
@@ -13,6 +14,7 @@ const Home = () => {
       <Sliders/>
       <MobileSecurity/>
       <GetCerto/>
+      <AboutHelpCard/>
       <SpyCerto/>
     </>
   );
